@@ -1,5 +1,5 @@
 
-fetch('projects.json').then((res) => {
+fetch('javascript/projects.json').then((res) => {
     return res.json()
 })
 
