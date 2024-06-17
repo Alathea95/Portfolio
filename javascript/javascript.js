@@ -4,17 +4,20 @@ fetch('javascript/projects.json').then((res) => {
 })
 
 .then((data) => {
-const target = document.querySelector ('.target')
+const target = document.querySelector ('.portfolios')
 data.projects.forEach((projects)=> {
     target.innerHTML += `
 
-    <h4>${projects.Title}</h4>
+    <div class="target">
+        <div>
+            <h4>${projects.Title}</h4>
+            <p class="portfoliotext">${projects.Description}</p> 
+            <a href="${projects.Git}">Git</a>
+        </div>
+    
 
     <img src="${projects.Img}" />
-
-    <p>${projects.Description}</p> 
-
-    <a href="${projects.Git}">Git</a>
+    </div>
     `
 })
 

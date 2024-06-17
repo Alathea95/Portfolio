@@ -36,6 +36,38 @@ display: flex;
 }
 
 .target {
-    display: grid;
-    grid-template-columns: 400px;
+max-width: 1200px;
+    display: flex;
+    grid-template-columns: 600px;
+    border: black 1px solid;
+    padding: 20px;
+    margin: 0;
+}
+
+.aboutme {
+    padding: 20px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    border: black 1px solid;
+}
+
+.portfolios {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+}
+.portfoliotext {
+max-width: 200px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+  }
+
+.aboutme{
+    max-width: 100%;
+    height: auto;
 }
