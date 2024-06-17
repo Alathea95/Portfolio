@@ -12,7 +12,7 @@ data.projects.forEach((projects)=> {
         <div>
             <h4>${projects.Title}</h4>
             <p class="portfoliotext">${projects.Description}</p> 
-            <a href="${projects.Git}">Git</a>
+            <a href="${projects.Git}">Github</a>
         </div>
     
 

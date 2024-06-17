@@ -71,3 +71,7 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+.abouttext {
+max-width: 600px;
+}
