@@ -2,9 +2,15 @@
     "Projects": [
         {
             "Title": "Portfolio",
-            "description": "a profile with my programming portfolio made with HTML CSS and Javascript",
+            "Description": "a profile with my programming portfolio made with HTML CSS and Javascript",
             "Git": "https://github.com/Alathea95/Portfolio",
-            "preview": "insert image preview here"
+            "Img": "insert image preview here"
+        },
+        {
+            "Title": "Portfolio",
+            "Description": "a profile with my programming portfolio made with HTML CSS and Javascript",
+            "Git": "https://github.com/Alathea95/Portfolio",
+            "Img": "insert image preview here"
         }
     ]
   }

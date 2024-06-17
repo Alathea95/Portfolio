@@ -34,3 +34,8 @@ display: flex;
 .contact {
     display: flex;
 }
+
+.target {
+    display: grid;
+    grid-template-columns: 400px;
+}
