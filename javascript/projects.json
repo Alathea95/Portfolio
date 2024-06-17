@@ -1,0 +1,10 @@
+{
+    "Projects": [
+        {
+            "Title": "Portfolio",
+            "description": "a profile with my programming portfolio made with HTML CSS and Javascript",
+            "Git": "https://github.com/Alathea95/Portfolio",
+            "preview": "insert image preview here"
+        }
+    ]
+  }
