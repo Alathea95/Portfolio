@@ -3,17 +3,24 @@ html, body{
     height: 100%;
     width: 100%;
     margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 .nav{
     position: fixed;
-    padding: 20px;
+    padding: 18px;
     width: 100%;
     top: 0;
     left: 0;
     display: flex;
     align-content: space-between;
+    background-color: #36d160;
+    font-size: 20px;
 }
+img {
+    width: 100%;
+    height: auto;
+  }
 
 .page-nav{
     display: block;
@@ -21,6 +28,7 @@ html, body{
 
 .github-head{
     display: block;
+
 }
 
 .logo{
@@ -42,6 +50,7 @@ max-width: 1200px;
     border: black 1px solid;
     padding: 20px;
     margin: 0;
+    font-size: 20px;
 }
 
 .aboutme {
@@ -50,6 +59,7 @@ max-width: 1200px;
     display: flex;
     justify-content: center;
     border: black 1px solid;
+    font-size: 18px;
 }
 
 .portfolios {
