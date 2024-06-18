@@ -52,14 +52,6 @@ display: flex;
     font-size: 30px;
 }
 
-.target {
-    display: flex;
-    justify-content: center;
-    border: black 1px solid;
-    margin: 25px;
-    font-size: 20px;
-    padding: 25px;
-}
 
 .aboutme {
     padding: 20px;
@@ -74,10 +66,6 @@ display: flex;
     flex-wrap: wrap;
     max-width: 100%;
     padding: 20px;
-}
-.portfoliotext {
-    max-height: 50%;
-
 }
 
 img {
@@ -100,12 +88,6 @@ max-width: 600px;
     padding-bottom: 75px;
 }
 
-.h4 {
-    display: block;
-    max-width: 100%;
-    font-size: 28px;
-}
-
 i {
     color: black;
 }
@@ -116,18 +98,60 @@ i {
     background-color: #769171;
 }
 
-.githubpro {
-    padding: 0 20px;
-    text-decoration: none;
-    color: black;
+
+h2 {
+    display: flex;
+    justify-content: center ;
 }
-
-.portimg {
-max-width: 100%;
-width: 300px;
-
+.target {
+    border: 1px ;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #769171 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.target h4 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 1.5em;
+    color: blue;
+    text-align: center;
 }
 
 .target2 {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.portfoliotext {
+    margin: 16px;
+    color: blue;
+    font-size: 20px ;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.githubpro {
+    display: inline-block;
+    margin-bottom: 16px;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+.githubpro i {
+    margin-left: 8px;
+}
+
+.portimg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
 }
