@@ -9,17 +9,12 @@ data.projects.forEach((projects)=> {
     target.innerHTML += `
 
     <div class="target">
-        <h4>${projects.Title}</h4>    
-    <div>
-            
-            <div class="target2>
-                <p class="portfoliotext">${projects.Description}</p> 
-                <a class="githubpro" href="${projects.Git}"> Github <i class="fa-brands fa-square-github fa-2xl"></i></a>  
-                <img class="portimg" src="${projects.Img}" />
-            </div>
+        <h4>${projects.Title}</h4>           
+        <div class="target2">
+            <p class="portfoliotext">${projects.Description}</p> 
+            <a class="githubpro" href="${projects.Git}"> Github <i class="fa-brands fa-square-github fa-2xl"></i></a>  
+            <img class="portimg" src="${projects.Img}" />
         </div>
-    
-
     </div>
     `
 })
