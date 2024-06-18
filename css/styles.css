@@ -9,8 +9,6 @@ html, body{
 .nav{
     position: fixed;
     width: 100%;
-    top: 0;
-    left: 0;
     padding: 18px;
     display: flex;
     justify-content: space-between;
@@ -23,7 +21,9 @@ img {
   }
 
 .page-nav{
-    display: block;
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
 }
 
 .github-head{
@@ -76,7 +76,7 @@ display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    gap: 10px;
+    gap: 30px;
 }
 .portfoliotext {
 max-width: 200px;
@@ -117,4 +117,15 @@ i {
     max-width: 100%;
     padding: 20px;
     background-color: #769171;
+}
+
+.githubpro {
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.portimg{
+max-width: 100%;
+max-height: 100%;
 }

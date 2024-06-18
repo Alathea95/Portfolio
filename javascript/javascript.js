@@ -11,12 +11,16 @@ data.projects.forEach((projects)=> {
     <div class="target">
         <div>
             <h4>${projects.Title}</h4>
-            <p class="portfoliotext">${projects.Description}</p> 
-            <a href="${projects.Git}">Github</a>
+            <div class="target2>
+                <p class="portfoliotext">${projects.Description}</p> 
+                <div>
+                    <a class="githubpro" href="${projects.Git}"> Github <i class="fa-brands fa-square-github fa-2xl"></i></a>
+                </div>
+            </div>
         </div>
     
 
-    <img src="${projects.Img}" />
+    <img class="portimg" src="${projects.Img}" />
     </div>
     `
 })
