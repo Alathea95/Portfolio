@@ -14,7 +14,7 @@ html, body{
     padding: 18px;
     display: flex;
     justify-content: space-between;
-    background-color: #36d160;
+    background-image: linear-gradient(#769171, #36d160);
     font-size: 20px;
 }
 img {
@@ -43,6 +43,13 @@ display: flex;
 
 .contact, .contacts {
     display: flex;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    font-size: 30px;
 }
 
 .target {
@@ -108,9 +115,6 @@ i {
 
 .contactcontainer {
     max-width: 100%;
+    padding: 20px;
     background-color: #769171;
-}
-
-.fa-copyright {
-
 }
