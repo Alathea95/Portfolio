@@ -20,3 +20,5 @@ data.projects.forEach((projects)=> {
 })
 
 })
+
+//media quieries need to be done at 650px and lower
