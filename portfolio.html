@@ -12,7 +12,16 @@
 <body>
 
     <nav class="nav">
-        <div class="page-nav">
+        <div class="">
+            <div class="dropdown">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                    <a class="drop-nav" href="#logo">Home</a>
+                    <a class="drop-nav" href="#aboutme">About Me</a>
+                    <a class="drop-nav" href="#project">Projects</a>
+                    <a class="drop-nav" href="#contact">Contact</a>
+                </div>
+            </div>
             <a class="page-nav" href="#logo">Home</a>
             <a class="page-nav" href="#aboutme">About Me</a>
             <a class="page-nav" href="#project">Projects</a>
@@ -25,14 +34,14 @@
         </div>
     </nav>
 
-    <div class="spacer">
-        <div id="logo" class="logo">
+    <div class="spacer" id="logo">
+        <div class="logo">
             <img src="images/goose.jpg" alt="A placeholder which will eventually be a webpage I've made">
         </div>
     </div>
     
-    <div class="spacer">
-        <div id="aboutme" class="aboutme">
+    <div class="spacer" id="aboutme">
+        <div class="aboutme">
             <div>
                 <h1>About Me</h1>
                 <p class="abouttext">Hi, my name is Jordan and I've just started studying at IO Academy to broaden
@@ -51,20 +60,17 @@
         </div>
     </div>
 
-    <div class="spacer">
+    <div class="spacer" id="project">
         <h2>Projects I Have Created</h2>
-        <div id="project" class="portfolios"></div>
+        <div class="portfolios"></div>
     </div>
 
-    <div class="spacer">
+    <div class="spacer" id="contact">
         <div class="contactcontainer">
-            <h3 class="header3"  id="contact">contact deets</h3>
+            <h3 class="header3">Contact deets</h3>
             <p class="contacttext">You can reach me at any of the below, but I will primarily respond to emails.</p>
                 <div class="contact">
                     <div class="contacts">
-                        <a href="https://github.com/Alathea95">
-                            <i class="fa-brands fa-square-github fa-2xl"></i>
-                        </a>
                         <a href="mailto:jordanvanbuul@hotmail.com">
                             <i class="fa-solid fa-envelope fa-2xl"></i> 
                         </a> 
@@ -77,6 +83,7 @@
     </div>
 
     <footer> <i class="fa-regular fa-copyright"></i> Copyright 2024 </footer>
+    
     
 </body>
 </html>
