@@ -212,7 +212,7 @@ h2 {
     padding: 20px 0 20px 0;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 850px) {
     .aboutme {
         display: flex;
         flex-direction: column;
@@ -230,6 +230,9 @@ h2 {
 
     .pxchange {
         text-align: center;
+    }
+    .abouttext {
+        max-width: 100%;
     }
 }
 
