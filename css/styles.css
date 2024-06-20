@@ -29,7 +29,6 @@ body {
 
 .github-head {
     padding-right: 40px;
-    display: block;
 }
 
 .yeet {
@@ -46,9 +45,6 @@ img {
     display: flex;
 }
 
-
-
-
 .page-nav {
     padding: 0 20px;
     text-decoration: none;
@@ -57,21 +53,12 @@ img {
 
 .page-nav:hover {
     color: black;
-    transition: color, 400ms;
+    transition: color 400ms;
 }
 
 .spacer {
     max-width: 100%;
     padding-top: 75px;
-}
-
-.logo {
-    display: flex;
-}
-
-.abouttext {
-    font-size: 16px;
-    padding: 20px;
 }
 
 .aboutme {
@@ -103,11 +90,6 @@ img {
     padding: 30px;
 }
 
-img {
-    width: 100%;
-    height: auto;
-}
-
 .aboutme {
     max-width: 100%;
     height: auto;
@@ -123,7 +105,7 @@ i {
 
 i:hover {
     color: black;
-    transition: color, 400ms;
+    transition: color 400ms;
 }
 
 .contactcontainer {
@@ -185,7 +167,7 @@ h2 {
 
 .githubpro:hover {
     color: black;
-    transition: color, 400ms;
+    transition: color 400ms;
 }
 
 .githubpro i {
@@ -250,7 +232,6 @@ h2 {
         text-align: center;
     }
 }
-
 
 @media only screen and (max-width: 650px) {
     .dropbtn {
@@ -322,6 +303,4 @@ h2 {
         display: flex;
         flex-direction: column;
     }
-
-
 }
