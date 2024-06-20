@@ -58,7 +58,6 @@ img {
 .spacer{
     max-width: 100%;
     padding-top: 75px;
-    padding-bottom: 75px;
 }
 .logo{
 display: flex;
@@ -131,6 +130,7 @@ h2 {
     justify-content: center ;
     font-weight: bold;
     font-size: 36px;
+    padding: 18px;
 }
 
 .target {
@@ -222,6 +222,24 @@ h2 {
     padding: 20px 0 20px 0;
 }
 
+@media only screen and (max-width: 750px) {
+    .aboutme{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .aboutpic{
+        max-width: 400px;
+    }
+    .aboutmeimg{
+        display: flex;
+        justify-content: center;
+    }
+    .pxchange{
+        text-align: center;
+    }
+}
+
 
 @media only screen and (max-width: 650px) {
     .dropbtn {
@@ -286,5 +304,12 @@ h2 {
     .dropdown:hover .dropdown-content {
     display: block;
     }
+
+    .aboutme{
+        display: flex;
+        flex-direction: column;
+    }
+
+
 }
 
