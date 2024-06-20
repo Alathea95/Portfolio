@@ -3,10 +3,10 @@ fetch('javascript/projects.json').then((res) => {
     return res.json()
 })
 
-.then((data) => {
-const target = document.querySelector ('.portfolios')
-data.projects.forEach((projects)=> {
-    target.innerHTML += `
+    .then((data) => {
+        const target = document.querySelector('.portfolios')
+        data.projects.forEach((projects) => {
+            target.innerHTML += `
 
     <div class="target">
         <h4>${projects.Title}</h4>           
@@ -17,6 +17,6 @@ data.projects.forEach((projects)=> {
         </div>
     </div>
     `
-})
+        })
 
-})
+    })

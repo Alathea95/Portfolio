@@ -1,4 +1,5 @@
-html, body{
+html,
+body {
     background-color: #5777d9;
     height: 100%;
     width: 100%;
@@ -7,27 +8,31 @@ html, body{
     color: white;
 }
 
-.nav{
+.nav {
     position: fixed;
     width: 100%;
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    background-image: linear-gradient(#5777d9, #224bc7, #5777d9 );
+    background-image: linear-gradient(#5777d9, #224bc7, #5777d9);
     font-size: 20px;
 }
+
 .dropbtn {
-    display: none ;
+    display: none;
     color: white;
 }
+
 .drop-nav {
     display: none;
 }
-.github-head{
+
+.github-head {
     padding-right: 40px;
     display: block;
 }
-.yeet{
+
+.yeet {
     text-decoration: none;
     color: white;
 }
@@ -37,14 +42,14 @@ img {
     height: auto;
 }
 
-.logo{
+.logo {
     display: flex;
-} 
+}
 
 
 
 
-.page-nav{
+.page-nav {
     padding: 0 20px;
     text-decoration: none;
     color: white;
@@ -55,15 +60,16 @@ img {
     transition: color, 400ms;
 }
 
-.spacer{
+.spacer {
     max-width: 100%;
     padding-top: 75px;
 }
-.logo{
-display: flex;
-} 
 
-.abouttext{
+.logo {
+    display: flex;
+}
+
+.abouttext {
     font-size: 16px;
     padding: 20px;
 }
@@ -72,7 +78,7 @@ display: flex;
     padding: 20px;
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(#5777d9, #224bc7, #5777d9 );
+    background-image: linear-gradient(#5777d9, #224bc7, #5777d9);
     font-size: 18px;
 }
 
@@ -81,11 +87,11 @@ display: flex;
     padding: 20px;
 }
 
-.aboutpic{
+.aboutpic {
     border-radius: 8px;
 }
 
-.projects{
+.projects {
     display: flex;
     justify-content: center;
 }
@@ -100,9 +106,9 @@ display: flex;
 img {
     width: 100%;
     height: auto;
-  }
+}
 
-.aboutme{
+.aboutme {
     max-width: 100%;
     height: auto;
 }
@@ -114,6 +120,7 @@ img {
 i {
     color: white;
 }
+
 i:hover {
     color: black;
     transition: color, 400ms;
@@ -122,19 +129,19 @@ i:hover {
 .contactcontainer {
     max-width: 100%;
     padding: 20px;
-    background-image: linear-gradient(#5777d9, #224bc7, #5777d9 );
+    background-image: linear-gradient(#5777d9, #224bc7, #5777d9);
 }
 
 h2 {
     display: flex;
-    justify-content: center ;
+    justify-content: center;
     font-weight: bold;
     font-size: 36px;
     padding: 18px;
 }
 
 .target {
-    border: 1px ;
+    border: 1px;
     border-radius: 8px;
     padding: 20px;
     max-width: 500px;
@@ -163,7 +170,7 @@ h2 {
 .portfoliotext {
     margin: 16px;
     color: white;
-    font-size: 20px ;
+    font-size: 20px;
     line-height: 2;
     text-align: center;
 }
@@ -195,11 +202,11 @@ h2 {
 .header3 {
     margin: 16px;
     color: white;
-    font-size: 36px ;
+    font-size: 36px;
     text-align: center;
 }
 
-.contacts{
+.contacts {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -208,6 +215,7 @@ h2 {
     font-size: 30px;
     color: white;
 }
+
 .contact {
     display: flex;
     justify-content: center;
@@ -216,26 +224,29 @@ h2 {
 .contacttext {
     margin: 16px;
     color: white;
-    font-size: 20px ;
+    font-size: 20px;
     line-height: 2;
     text-align: center;
     padding: 20px 0 20px 0;
 }
 
 @media only screen and (max-width: 750px) {
-    .aboutme{
+    .aboutme {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    .aboutpic{
+
+    .aboutpic {
         max-width: 400px;
     }
-    .aboutmeimg{
+
+    .aboutmeimg {
         display: flex;
         justify-content: center;
     }
-    .pxchange{
+
+    .pxchange {
         text-align: center;
     }
 }
@@ -246,70 +257,71 @@ h2 {
         display: block;
         background: #224bc7;
     }
+
     .page-nav {
         display: none;
     }
-    
+
     .navbar {
-    overflow: hidden;
-    background-color: white;
+        overflow: hidden;
+        background-color: white;
     }
-    
+
     .navbar a {
-    float: left;
-    font-size: 16px;
-    color: #224bc7;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+        float: left;
+        font-size: 16px;
+        color: #224bc7;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
     }
 
     .dropdown {
-    float: left;
-    overflow: hidden;
+        float: left;
+        overflow: hidden;
     }
 
     .dropdown .dropbutton {
-    font-size: 16px;  
-    color: #224bc7;
-    padding: 14px 16px;
-    margin: 0;
+        font-size: 16px;
+        color: #224bc7;
+        padding: 14px 16px;
+        margin: 0;
     }
 
-    .navbar a:hover, .dropdown:hover .dropbutton {
-    background-color: red;
+    .navbar a:hover,
+    .dropdown:hover .dropbutton {
+        background-color: red;
     }
 
     .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #224bc7;
-    min-width: 160px;
-    border: white;
+        display: none;
+        position: absolute;
+        background-color: #224bc7;
+        min-width: 160px;
+        border: white;
     }
 
     .dropdown-content a {
-    float: none;
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
+        float: none;
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
     }
 
     .dropdown-content a:hover {
-    background-color: #5777d9;
+        background-color: #5777d9;
     }
 
     .dropdown:hover .dropdown-content {
-    display: block;
+        display: block;
     }
 
-    .aboutme{
+    .aboutme {
         display: flex;
         flex-direction: column;
     }
 
 
 }
-
